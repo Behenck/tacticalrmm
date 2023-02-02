@@ -227,6 +227,5 @@ volumes:
 networks:
   dev:
     ipam:
-      driver: default
       config:
         - subnet: ${DOCKER_NETWORK}
