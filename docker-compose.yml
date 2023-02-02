@@ -226,7 +226,6 @@ volumes:
 
 networks:
   dev:
-    driver: bridge
     ipam:
       driver: default
       config:
